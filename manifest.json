@@ -1,0 +1,85 @@
+{
+  "name": "Solar System Sizer",
+  "short_name": "Solar Sizer",
+  "description": "Professional solar system sizing calculator for off-grid and hybrid systems",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FF9800",
+  "theme_color": "#FF9800",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icons/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["business", "education", "productivity", "utilities"],
+  "screenshots": [
+    {
+      "src": "screenshots/step1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Load Calculator"
+    },
+    {
+      "src": "screenshots/step4.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "System Summary"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "New Design",
+      "short_name": "New",
+      "description": "Start a new solar system design",
+      "url": "/?new=true"
+    },
+    {
+      "name": "Load Projects",
+      "short_name": "Projects",
+      "description": "View saved projects",
+      "url": "/?projects=true"
+    }
+  ]
+}
