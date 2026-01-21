@@ -2,18 +2,13 @@
 
 const CACHE_NAME = 'solar-sizer-v1.0';
 const ASSETS_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/app.js',
-  '/manifest.json',
-  '/icons/icon-72.png',
-  '/icons/icon-96.png',
-  '/icons/icon-128.png',
-  '/icons/icon-144.png',
-  '/icons/icon-152.png',
-  '/icons/icon-192.png',
-  '/icons/icon-512.png',
+  '/solar-system-sizer/',  // Add this
+  '/solar-system-sizer/index.html',
+  '/solar-system-sizer/style.css',
+  '/solar-system-sizer/app.js',
+  '/solar-system-sizer/sw.js',
+  '/solar-system-sizer/manifest.json',
+  '/solar-system-sizer/icons/icon-192.png'
   'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap',
   'https://fonts.googleapis.com/icon?family=Material+Icons'
 ];
