@@ -1,12 +1,11 @@
 {
   "name": "Solar System Sizer",
   "short_name": "Solar Sizer",
-  "description": "Professional solar system sizing calculator for off-grid and hybrid systems",
-  "start_url": "/",
+  "description": "Professional solar system sizing calculator",
+  "start_url": "/solar-system-sizer/",
   "display": "standalone",
   "background_color": "#FF9800",
   "theme_color": "#FF9800",
-  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "icons/icon-72.png",
